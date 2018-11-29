@@ -1,1 +1,2 @@
-# stat3622VizApp
+# Visualization of Olympics 
+
