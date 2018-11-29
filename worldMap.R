@@ -13,8 +13,6 @@ library(shiny)
 
 #Read in medals data set
 
-setwd("C:/Users/giaco/Desktop/Olympic")
-
 athletes <- read.csv("athlete_events.csv", header=T)
 #Read in ISO codes to link Olympic country codes (NOC) with country name
 iso <- read.csv("noc_regions.csv", header=T)
