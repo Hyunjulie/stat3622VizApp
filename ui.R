@@ -1,3 +1,11 @@
+library(shiny)
+library(ggplot2)
+library(dplyr)
+library(plotly)
+library(googleVis)
+library(plyr)
+
+
 navbarPage("Visualizing Olympics",
            tabPanel("Distribution of Height/Weight for Each Sport", 
                     titlePanel("Distribution of Height/Weight for Each Sport"),
